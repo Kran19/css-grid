@@ -1,0 +1,74 @@
+.main{
+
+    border: 2px solid black;
+    
+}
+
+#name{
+    text-align: center;
+    background-color: darkgray;
+    color: brown;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: xx-large;
+}
+
+.navbar{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    justify-content: space-evenly;
+    height: 40px;
+    background-color: aquamarine;
+    
+    
+}
+
+.navbar a{
+
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.navbar a:hover{
+
+    border: 2px solid black;
+}
+
+.dd .content{
+    display: none;
+    position: relative;
+    
+}
+
+.dd:hover .content {
+    display: block;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    list-style: none;
+    font-size: 30px;
+    margin: 5px;
+    
+}
+
+.course .content{
+    display: none;
+    position: relative;
+    
+}
+
+.course:hover .content {
+    display: block;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    list-style: none;
+}
+
